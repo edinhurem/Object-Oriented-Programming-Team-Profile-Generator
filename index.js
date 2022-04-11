@@ -111,6 +111,7 @@ function showMenu() {
         name: "choice",
       },
     ])
+
     .then((data) => {
       console.log(data.choice);
       if (data.choice == "Add an Engineer") {
@@ -141,12 +142,13 @@ function createHTML() {
   <!DOCTYPE html>
   <html>
   <head>
-  <!-- Need to add link to CSS file (bootstrap?) -->
+  
   </head>
   <body>
   `;
 
   // Add the manager to the page
+
   html += `
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="..." alt="Card image cap">
