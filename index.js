@@ -133,7 +133,7 @@ function showMenu() {
 // To create a function....
 /*
 function function_name(parameters) {   // "parameters" are optional information passed to the function
-  stuff the function does
+
   ...
 }
 */
@@ -234,16 +234,9 @@ function createHTML() {
  * This function will generate test data quickly skipping the questionaire for generation
  */
 function generateQuickTest() {
-  manager = new Manager(
-    "M001",
-    "edin hure",
-    "edinhurem@gmail.com",
-    "Charlotte"
-  );
-  engineers.push(new Engineer("E001", "Edin", "edin@company.com", "edinhurem"));
-  interns.push(
-    new Intern("Stephanie", "I001", "stephiscool@gmail.com", "CCNV")
-  );
+  manager = new Manager("M001", "edin hurem", "edinhurem@gmail.com", "1");
+  engineers.push(new Engineer("E001", "edin", "edin@company.com", "edinhurem"));
+  interns.push(new Intern("John", "I001", "JohnUNCC@gmail.com", "UNCC"));
   createHTML();
 }
 
